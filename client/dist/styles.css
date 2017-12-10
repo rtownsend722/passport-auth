@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+button {
+  min-width: 10%;
+  font-size: 16px;
+  color: lightgrey;
+  margin: 10px 5px;
+}
+
+a {
+  font-size: 16px;
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.login-label {
+  font-size: 18px; 
+  color: lightgrey;
+}
+
+.login-input {
+  max-width: 40%;
+  margin: auto;
+}
