@@ -1,22 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Login from './components/login.jsx';
+import {BrowserRouter} from 'react-router-dom';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: ''
-    }
-  }
+import App from './components/App.jsx'
 
-  render() {
-    return (
-      <div>
-        <Login/>
-      </div>
-    )
-  }
-}
+const root = document.getElementById('root');
 
-ReactDOM.render(<App/>, document.getElementById('app'));
+ReactDOM.render(
+  <BrowserRouter>
+    <App/>
+  </BrowserRouter>,
+  root
+);
